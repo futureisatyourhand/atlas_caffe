@@ -1,3 +1,9 @@
+We add permute and Reorg for YOLOv2.  
+## Compile the caffe for offline-model
+make clean  
+make pycaffe  
+make distribute  
+The following are additional descriptions and Copyrights about Caffe framework
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
