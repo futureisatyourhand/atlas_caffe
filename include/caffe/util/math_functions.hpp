@@ -12,6 +12,11 @@
 
 namespace caffe {
 
+ template<typename Dtype>
+    void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h,
+                   const int b_c, const int b_n, const int stride,
+                   const bool forward, Dtype *top_data);
+
 // Caffe gemm provides a simpler interface to the gemm functions, with the
 // limitation that the data has to be contiguous in memory.
 template <typename Dtype>

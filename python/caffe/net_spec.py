@@ -19,8 +19,9 @@ are not guaranteed to be forward-compatible.
 """
 
 from collections import OrderedDict, Counter
-
-from .proto import caffe_pb2
+import sys
+sys.path.insert(0,"/home/huawei/caffe/python/caffe/proto/caffe/proto")
+import caffe_pb2
 from google import protobuf
 import six
 

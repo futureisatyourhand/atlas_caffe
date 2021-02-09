@@ -4,8 +4,10 @@ from scipy.ndimage import zoom
 from skimage.transform import resize
 
 try:
+    import sys
+    sys.path.insert(0,"/home/huawei/caffe/python/caffe/proto/caffe/proto")
     # Python3 will most likely not be able to load protobuf
-    from caffe.proto import caffe_pb2
+    import caffe_pb2
 except:
     import sys
     if sys.version_info >= (3, 0):

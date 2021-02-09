@@ -1,0 +1,1000 @@
+ 1004  nohup sh run.sh &
+ 1005  sh run.sh 
+ 1006  vim train_val.prototxt 
+ 1007  sh run.sh 
+ 1008  vim train_val.prototxt 
+ 1009  sh run.sh 
+ 1010  vim train_val.prototxt 
+ 1011  vim run.sh 
+ 1012  ls /home/huawei/caffe/build/tools/
+ 1013  ls /home/huawei/ddk/
+ 1014  ls /home/huawei/ddk/ddk/
+ 1015  ls /home/huawei/ddk/ddk/toolchains/
+ 1016  ls /home/huawei/ddk/ddk/toolchains/aarch64-linux-gcc6.3/
+ 1017  ls /home/huawei/ddk/ddk/toolchains/aarch64-linux-gcc6.3/bin/
+ 1018  ls /home/huawei/ddk/ddk/toolchains/aarch64-linux-gcc6.3/
+ 1019  ls /home/huawei/ddk/ddk/toolchains/aarch64-linux-gcc6.3/include/
+ 1020  ls /home/huawei/ddk/ddk/toolchains/aarch64-linux-gcc6.3/lib
+ 1021  ls /home/huawei/ddk/ddk/
+ 1022  ls /home/huawei/ddk/ddk/uihost/
+ 1023  ls /home/huawei/ddk/ddk/uihost/bin
+ 1024  ls /home/huawei/ddk/ddk/uihost/lib
+ 1025  ls /home/huawei/ddk/ddk/uihost/bin
+ 1026  ls /home/huawei/ddk/ddk/uihost/
+ 1027  ls /home/huawei/ddk/ddk/uihost/toolchains
+ 1028  ls /home/huawei/ddk/ddk/
+ 1029  ls /home/huawei/ddk/ddk/scripts/
+ 1030  ls
+ 1031  ls /home/huawei/ddk/ddk/sm
+ 1032  ls /home/huawei/ddk/ddk/sample/
+ 1033  ls /home/huawei/ddk/ddk/
+ 1034  ls /home/huawei/ddk/ddk/python3.5/
+ 1035  ls /home/huawei/ddk/ddk/python3.5/site-packages/
+ 1036  ls /home/huawei/ddk/ddk/
+ 1037  ls /home/huawei/ddk/ddk/host/
+ 1038  ls /home/huawei/ddk/ddk/host/bin
+ 1039  ls /home/huawei/ddk/ddk/device/
+ 1040  ls /home/huawei/ddk/ddk/device/lib/
+ 1041  ls
+ 1042  vim train_val.prototxt 
+ 1043  sh run.sh 
+ 1044  cd /home/huawei
+ 1045  ls
+ 1046  ls /home/huawei/caffe/python/
+ 1047  ls /home/huawei/caffe/python/caffe/
+ 1048  ls /home/huawei/caffe/python/caffe/proto/
+ 1049  cd /home/huawei/caffe/python/caffe/proto/
+ 1050  ls
+ 1051  vim __init__.py
+ 1052  cd caffe/
+ 1053  ls
+ 1054  cd proto/
+ 1055  ls
+ 1056  pwd
+ 1057  ls
+ 1058  vim caffe_pb2.py 
+ 1059  cd ../
+ 1060  ls
+ 1061  cd ../
+ 1062  ls
+ 1063  cd /home/huawei/
+ 1064  ls
+ 1065  cd yolov2
+ 1066  ls
+ 1067  cd mycaffe/
+ 1068  ls
+ 1069  vim train_val.prototxt 
+ 1070  vim solver.prototxt 
+ 1071  /home/huawei/caffe/build/tools/caffe train -iterations 1  -solver ./solver.prototxt 2>&1| tee caffe_train.log
+ 1072  mkdir snapshot
+ 1073  ls
+ 1074  ls -ahl
+ 1075  cd ../
+ 1076  su 
+ 1077  ls
+ 1078  cd /home/huawei/caffe/
+ 1079  make clean
+ 1080  make pycaffe
+ 1081  make distribute
+ 1082  python
+ 1083  vim python/caffe/io.py
+ 1084  python
+ 1085  vim python/caffe/io.py
+ 1086  python
+ 1087  vim python/caffe/io.py
+ 1088  python
+ 1089  vim python/caffe/__init__.py
+ 1090  python
+ 1091  vim python/caffe/__init__.py
+ 1092  python
+ 1093  vim python/caffe/net_spec.py
+ 1094  python
+ 1095  caffe
+ 1096  ls
+ 1097  ls tools/
+ 1098  make all
+ 1099  ls tools/
+ 1100  ls build
+ 1101  ls build/tools/
+ 1102  build/tools/caffe train
+ 1103  ls
+ 1104  ls data
+ 1105  cd data
+ 1106  ls
+ 1107  ls mnist/
+ 1108  vim mnist/get_mnist.sh 
+ 1109  ls cifar10/
+ 1110  ls
+ 1111  cd ../
+ 1112  ls
+ 1113  ls build
+ 1114  ls build/tools/convert_imageset --resize_height=416 --resize_width=416 /home/huawei/JPEGImages/ /home/huawei/yolov2/mycaffe/train.txt /home/huawei/yolov2/mycaffe/lmdb
+ 1115  build/tools/convert_imageset --resize_height=416 --resize_width=416 /home/huawei/JPEGImages/ /home/huawei/yolov2/mycaffe/train.txt /home/huawei/yolov2/mycaffe/lmdb
+ 1116  build/tools/convert_imageset --resize_height=416 --resize_width=416 /home/huawei/JPEGImages/ /home/huawei/yolov2/mycaffe/train.txt lmdb
+ 1117  ls
+ 1118  ls lmdb/
+ 1119  build/tools/convert_imageset --resize_height=416 --resize_width=416 /home/huawei/JPEGImages/ /home/huawei/yolov2/mycaffe/train.txt /home/huawei/yolov2/mycaffe/lmdb
+ 1120  ls /home/huawei/yolov2
+ 1121  ls /home/huawei/yolov2/voc_
+ 1122  ls /home/huawei/yolov2/voc_weights/
+ 1123  ls
+ 1124  ls src/
+ 1125  ls src/caffe/
+ 1126  cd src/caffe/layers/
+ 1127  ls
+ 1128  vim reorg_layer.cu
+ 1129  vim reorg_layer.cpp
+ 1130  ls
+ 1131  cd ../
+ 1132  ls
+ 1133  cd proto/
+ 1134  ls
+ 1135  vim caffe.proto 
+ 1136  ls
+ 1137  cd ../
+ 1138  ls
+ 1139  cd util/
+ 1140  ls
+ 1141  vim math_functions.cpp 
+ 1142  cd ../
+ 1143  ls
+ 1144  cd test/
+ 1145  ls
+ 1146  vim test_reorg_layer.cpp
+ 1147  ls
+ 1148  cd ../
+ 1149  ls
+ 1150  cd ../
+ 1151  ls
+ 1152  cd ../
+ 1153  ls
+ 1154  cd include/
+ 1155  ls
+ 1156  cd caffe/
+ 1157  ls
+ 1158  cd layers/
+ 1159  ls
+ 1160  vim reorg_layer.hpp
+ 1161  rm reorg_layer.hpp 
+ 1162  vim reorg_layer.hpp
+ 1163  cd ../
+ 1164  ls
+ 1165  cd util/
+ 1166  ls
+ 1167  vim math_functions.hpp 
+ 1168  cd ../../
+ 1169  ls
+ 1170  cd ../
+ 1171  ls
+ 1172  make clean
+ 1173  make all
+ 1174  vim src/caffe/proto/caffe.proto 
+ 1175  ls
+ 1176  vim src/caffe/layers/reorg_layer.cpp
+ 1177  vim src/caffe/layers/reorg_layer.cu 
+ 1178  vim src/caffe/test/test_reorg_layer.cpp 
+ 1179  vim src/caffe/test/test_caffe_main.cpp 
+ 1180  ls
+ 1181  vim include/caffe/caffe.hpp 
+ 1182  vim include/caffe/layer.hpp 
+ 1183  ls
+ 1184  make
+ 1185  vim src/caffe/proto/caffe.proto 
+ 1186  make
+ 1187  vim src/caffe/layers/reorg_layer.cpp 
+ 1188  vim src/caffe/layers/conv_layer.cpp 
+ 1189  vim src/caffe/layers/split_layer.cpp 
+ 1190  ls
+ 1191  vim Makefile
+ 1192  make pycaffe
+ 1193  vim src/caffe/layers/reorg_layer.cpp 
+ 1194  maek all
+ 1195  ls
+ 1196  make clean
+ 1197  make all
+ 1198  sudo pip install protobuf
+ 1199  su root
+ 1200  python3 main.py 
+ 1201  vim freeeze_model.py 
+ 1202  python3 freeeze_model.py 
+ 1203  ls
+ 1204  vim yolov2.py 
+ 1205  vim freeeze_model.py 
+ 1206  python3 freeeze_model.py 
+ 1207  vim freeeze_model.py 
+ 1208  ls
+ 1209  vim convert_weight.py 
+ 1210  ls yolov2_model/
+ 1211  vim main.py 
+ 1212  vim convert_weight.py 
+ 1213  python3 convert_weight.py 
+ 1214  vim freeeze_model.py 
+ 1215  python3 freeeze_model.py 
+ 1216  vim freeeze_model.py 
+ 1217  python3 freeeze_model.py 
+ 1218  vim main.py 
+ 1219  vim freeeze_model.py 
+ 1220  vim yolov2.py
+ 1221  vim model.py 
+ 1222  python3 main.py 
+ 1223  ls
+ 1224  python3 freeeze_model.py 
+ 1225  vim freeeze_model.py 
+ 1226  python3 freeeze_model.py 
+ 1227  vim yolov2.py
+ 1228  vim model.py 
+ 1229  python3 main.py 
+ 1230  vim freeeze_model.py 
+ 1231  python3 main.py 
+ 1232  python3 freeeze_model.py 
+ 1233  vim convert_weight.py 
+ 1234  python3 convert_weight.py 
+ 1235  vim freeeze_model.py 
+ 1236  vim yolov2.py 
+ 1237  vim freeeze_model.py 
+ 1238  python3 main.py 
+ 1239  vim freeeze_model.py 
+ 1240  python3 freeeze_model.py 
+ 1241  vim yolov2.py 
+ 1242  vim convert_weight.py 
+ 1243  vim yolov2.py 
+ 1244  cd /home/huawei/samples/Samples/InferObjectDetection/
+ 1245  ls
+ 1246  vim graph.config 
+ 1247  bash build.sh A300
+ 1248  su 
+ 1249  ls
+ 1250  vim src/caffe/layers/reorg_layer.cu 
+ 1251  vim src/caffe/layers/reorg_layer.cpp 
+ 1252  vim include/caffe/util/math_functions.hpp 
+ 1253  cd /home/huawei
+ 1254  ls
+ 1255  cd samples/Samples/
+ 1256  ls
+ 1257  cd InferObjectDetection/ObjectDetectionEngine/
+ 1258  ls
+ 1259  vim meta2post.cpp 
+ 1260  ls
+ 1261  su
+ 1262  python3
+ 1263  su
+ 1264  ls /mnt/usb/
+ 1265  su
+ 1266  ls
+ 1267  cd caffe
+ 1268  ls
+ 1269  make clean
+ 1270  ls
+ 1271  cd ../
+ 1272  ls -ahl
+ 1273  ls -ahl caffe/
+ 1274  tar -cvf caffe.tar caffe/
+ 1275  cp caffe.tar /mnt/usb/huawei/
+ 1276  ls
+ 1277  su 
+ 1278  su
+ 1279  history
+ 1280  history >1.txt 
+ 1281  vim 1.txt 
+ 1282  ls
+ 1283  cd /home/huawei/ddk/
+ 1284  cd ddk/uihost/bin/
+ 1285  ls
+ 1286  history
+ 1287  history >1.txt 
+ 1288  vim /home/huawei/1.txt 
+ 1289  ls /usr/bin/protoc 
+ 1290  protoc --version
+ 1291  ping www.baidu.com
+ 1292  cd yolov2/mycaffe/
+ 1293  ls
+ 1294  sh run.sh 
+ 1295  vim infer.prototxt 
+ 1296  sh run.sh 
+ 1297  vim infer.prototxt 
+ 1298  sh run.sh 
+ 1299  vim demo.prototxt 
+ 1300  vim /home/huawei/chems/model_convert/bioavailability/omg.sh 
+ 1301  ls
+ 1302  vim demo.prototxt 
+ 1303  python get_params.py 
+ 1304  su
+ 1305  cd samples/Samples/
+ 1306  ls
+ 1307  tar -cvf InferObjectDetection.tar InferObjectDetection/
+ 1308  ls
+ 1309  rm -rf InferObjectDetection.tar 
+ 1310  tar -cvf InferObjectDetection.tar InferObjectDetection/
+ 1311  ls
+ 1312  ls -ahl
+ 1313  rm InferObjectDetection.tar 
+ 1314  ls
+ 1315  zip InferObjectDetection.zip InferObjectDetection/
+ 1316  zip InferObjectDetection InferObjectDetection.zip
+ 1317  ls InferObjectDetection
+ 1318  ls
+ 1319  rm InferObjectDetection.zip 
+ 1320  ls
+ 1321  ls -ahl
+ 1322  mv InferObjectDetection old
+ 1323  ls
+ 1324  cd InferObjectDetection/
+ 1325  ls
+ 1326  vim graph.config 
+ 1327  su root
+ 1328  ls
+ 1329  unzip InferObjectDetection.zip 
+ 1330  ls
+ 1331  cd /home/huawei/yolov2/mycaffe/
+ 1332  python get_params.py 
+ 1333  su 
+ 1334  ls
+ 1335  ls -ahl
+ 1336  vim infer.prototxt 
+ 1337  cd ../
+ 1338  ls
+ 1339  cd mycaffe/
+ 1340  ls
+ 1341  vim run.sh 
+ 1342  vim solver.prototxt 
+ 1343  sh run.sh 
+ 1344  cd /home/huawei
+ 1345  cd caffe/
+ 1346  make all
+ 1347  make distribute
+ 1348  cd /home/huawei/samples/Samples/
+ 1349  ls
+ 1350  su 
+ 1351  cd ddk/ddk/uihost/bin
+ 1352  history
+ 1353  cd yolov2/mycaffe/
+ 1354  vim demo.prototxt 
+ 1355  python get_params.py 
+ 1356  ls /home/huawei/yolov2/mycaffe/new_parameter.caffemodel
+ 1357  ls /home/huawei/yolov2/mycaffe/demo.prototxt 
+ 1358  vim demo.prototxt 
+ 1359  python get_params.py 
+ 1360  vim demo.prototxt 
+ 1361  python get_params.py 
+ 1362  su
+ 1363  python get_params.py 
+ 1364  su
+ 1365  vim /home/huawei/yolov2/mycaffe/demo.prototxt 
+ 1366  cd ddk/ddk/uihost/bin
+ 1367  history
+ 1368  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1369  su
+ 1370  cd yolov2
+ 1371  ls
+ 1372  cd mycaffe/
+ 1373  ls
+ 1374  vim infer.prototxt 
+ 1375  cp demo.prototxt demo.prototxt_old
+ 1376  cp infer.prototxt demo.prototxt
+ 1377  vim demo.prototxt
+ 1378  sh run.sh 
+ 1379  python get_params.py 
+ 1380  history
+ 1381  vim infer.prototxt 
+ 1382  sh run.sh 
+ 1383  rm snapshot/solver_iter_1.*
+ 1384  nohup sh run.sh &
+ 1385  jobs
+ 1386  ls snapshot/
+ 1387  cp infer.prototxt demo.prototxt
+ 1388  vim demo.prototxt
+ 1389  python get_params.py 
+ 1390  vim infer.prototxt 
+ 1391  nohup sh run.sh &
+ 1392  ls snapshot/
+ 1393  jobs
+ 1394  cp infer.prototxt demo.prototxt
+ 1395  vim demo.prototxt
+ 1396  python get_params.py 
+ 1397  cp infer.prototxt infer.prototxt3
+ 1398  cp demo.prototxt demo.prototxt3
+ 1399  vim infer.prototxt
+ 1400  cp infer.prototxt demo.prototxt
+ 1401  vim demo.prototxt
+ 1402  rm snapshot/solver_iter_1.*
+ 1403  nohup sh run.sh &
+ 1404  jobs
+ 1405  ls snapshot/
+ 1406  jobs
+ 1407  python get_params.py 
+ 1408  vim infer.prototxt
+ 1409  cp infer.prototxt demo.prototxt
+ 1410  vim demo.prototxt
+ 1411  rm snapshot/solver_iter_1.*
+ 1412  nohup sh run.sh &
+ 1413  jobs
+ 1414  python get_params.py 
+ 1415  vim infer.prototxt
+ 1416  vim 11.cpp
+ 1417  g++ --std=c++11 11.cpp -o 11
+ 1418  vim 11.cpp
+ 1419  g++ --std=c++11 11.cpp -o 11
+ 1420  vim 11.cpp
+ 1421  g++ --std=c++11 11.cpp -o 11
+ 1422  ./11
+ 1423  ls
+ 1424  vim times.txt 
+ 1425  vim 11.cpp
+ 1426  g++ --std=c++11 11.cpp -o 11
+ 1427  ./11 
+ 1428  vim times.txt 
+ 1429  vim 11.cpp
+ 1430  ls
+ 1431  vim omg.sh
+ 1432  cd ddk/
+ 1433  cd ddk/uihost/bin
+ 1434  vim /home/huawei/yolov2/mycaffe/omg.sh 
+ 1435  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:2,416,416,3
+ 1436  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:4,416,416,3
+ 1437  vim /home/times.txt 
+ 1438  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:8,416,416,3
+ 1439  cat /home/times.txt 
+ 1440  vim /home/times.txt 
+ 1441  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:2,416,416,3
+ 1442  vim /home/times.txt 
+ 1443  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1444  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:16,416,416,3
+ 1445  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1446  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1447  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1448  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1449  cp /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h_bak
+ 1450  ls -ahl /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1451  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:20,416,416,3
+ 1452  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1453  vim /home/huawei/yolov2/mycaffe/demo.prototxt
+ 1454  vim /home/huawei/samples/Samples/InferObjectDetection/DstEngine/DstEngine.cpp 
+ 1455  su
+ 1456  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1457  vim /home/huawei/yolov2/mycaffe/demo.prototxt
+ 1458  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.
+ 1459  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1460  vim /home/huawei/ddk/ddk/sample/hiaiengine/src/ai_model_engine.cpp 
+ 1461  vim /home/huawei/ddk/ddk/sample/hiaiengine/src/src_engines.cpp 
+ 1462  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1463  vim /home/huawei/yolov2/mycaffe/demo.prototxt
+ 1464  vim /home/huawei/ddk/ddk/lib/aarch64-linux-gcc6.3/
+ 1465  vim /home/huawei/ddk/ddk/sample/fasterrcnn_vgg16/inc/dest_engine.h 
+ 1466  vim /home/huawei/ddk/ddk/sample/fasterrcnn_vgg16/inc/faster_rcnn_engine.h 
+ 1467  vim /home/huawei/ddk/ddk/sample/fasterrcnn_vgg16/src/src_engine.cpp 
+ 1468  vim /home/huawei/ddk/ddk/sample/fasterrcnn_vgg16/src/data_recv.cpp 
+ 1469  vim /home/huawei/ddk/ddk/sample/fasterrcnn_vgg16/src/faster_rcnn_engine.cpp 
+ 1470  vim /home/huawei/ddk/ddk/sample/fasterrcnn_vgg16/src/src_engine.cpp 
+ 1471  cd samples/Samples/my_right/
+ 1472  ls
+ 1473  ls -ahl
+ 1474  cd ../
+ 1475  ls
+ 1476  su
+ 1477  cd ddk/ddk/uihost/bin
+ 1478  cd /home/huawei/yolov2/mycaffe/
+ 1479  ls
+ 1480  cd yolov2/mycaffe/
+ 1481  vim demo.prototxt
+ 1482  vim omg.sh 
+ 1483  vim demo.prototxt
+ 1484  su
+ 1485  su root
+ 1486  ls
+ 1487  ls -ahl
+ 1488  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1489  vim demo.prototxt
+ 1490  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1491  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h_bak 
+ 1492  vim /home/huawei/ddk/ddk/include/inc/hiaiengine/engine.h
+ 1493  su
+ 1494  su 
+ 1495  su
+ 1496  ls
+ 1497  sh run.sh 
+ 1498  python3
+ 1499  vi run.sh 
+ 1500  exit
+ 1501  ifconfig
+ 1502  ping 10.2.152.166
+ 1503  ping  https://files.pythonhosted.org
+ 1504  ping  files.pythonhosted.org
+ 1505  ping baidu.com
+ 1506  ls
+ 1507  su
+ 1508  cd chems/
+ 1509  ls
+ 1510  cd bioavailability_model/
+ 1511  ls
+ 1512  vim run.sh 
+ 1513  sh run.sh 
+ 1514  pip3 install tqdm
+ 1515  sh run.sh 
+ 1516  pip3 install scikit-learn
+ 1517  lspci | grep 272
+ 1518  lspci | grep 270
+ 1519  poweroff
+ 1520  ifconfig
+ 1521  ping baidu.com
+ 1522  ping 10.2.151.154
+ 1523  ping baidu.com
+ 1524  ls
+ 1525  npu-smi info
+ 1526  sudo npu-smi info
+ 1527  su 
+ 1528  su
+ 1529  cd yolov2/mycaffe/
+ 1530  ls
+ 1531  vim demo.prototxt
+ 1532  vim omg.sh 
+ 1533  cd /home/huawei/ddk/ddk/uihost/bin
+ 1534  ls
+ 1535  ls /home/results/
+ 1536  vim /home/huawei/yolov2/mycaffe/demo.prototxt
+ 1537  vim /home/huawei/yolov2/mycaffe/omg.sh 
+ 1538  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1539  cd ddk/ddk/uihost/bin
+ 1540  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1541  pwd
+ 1542  cd /home/
+ 1543  ls
+ 1544  mkdir results
+ 1545  su
+ 1546  ls
+ 1547  cd ddk/ddk/uihost/
+ 1548  bi
+ 1549  ls
+ 1550  cd bin
+ 1551  vim /home/huawei/yolov2/mycaffe//demo.prototxt
+ 1552  vim /home/huawei/yolov2/mycaffe/omg.sh 
+ 1553  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1554  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:4,416,416,3
+ 1555  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/my_right/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1556  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/my_right/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1557  vim /home/huawei/yolov2/mycaffe/demo.prototxt
+ 1558  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/my_right/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1559  cd /home/huawei/yolov2/mycaffe/
+ 1560  ls
+ 1561  vim infer.prototxt
+ 1562  cp infer.prototxt infer.prototxt4
+ 1563  vim infer.prototxt
+ 1564  ls
+ 1565  vim inference.prototxt 
+ 1566  ls
+ 1567  vim train_val.prototxt 
+ 1568  cp train_val.prototxt infer.prototxt
+ 1569  vim infer.prototxt
+ 1570  vim get_params.py 
+ 1571  cp demo.prototxt right.prototxt
+ 1572  cp infer.prototxt demo.prototxt
+ 1573  vim demo.prototxt
+ 1574  vim run.sh 
+ 1575  sh run.sh 
+ 1576  vim run.sh 
+ 1577  vim solver.prototxt 
+ 1578  python3 get_params.py 
+ 1579  python get_params.py 
+ 1580  vim get_params.py 
+ 1581  python get_params.py 
+ 1582  ls
+ 1583  vim inference.py 
+ 1584  python inference.py 
+ 1585  vim inference.py 
+ 1586  python inference.py 
+ 1587  vim inference.py 
+ 1588  python inference.py 
+ 1589  vim demo.prototxt
+ 1590  vim inference.py 
+ 1591  python inference.py 
+ 1592  vim demo.prototxt
+ 1593  vim infer.prototxt
+ 1594  sh run.sh 
+ 1595  python get_params.py 
+ 1596  python inference.py 
+ 1597  vim inference.py 
+ 1598  python inference.py 
+ 1599  vim inference.py 
+ 1600  vim demo.prototxt
+ 1601  vim inference.py 
+ 1602  python inference.py 
+ 1603  vim inference.py 
+ 1604  python inference.py 
+ 1605  vim inference.py 
+ 1606  python inference.py 
+ 1607  vim /home/huawei/caffe/include/caffe/layers/relu_layer.hpp 
+ 1608  vim /home/huawei/caffe/src/caffe/layers/relu_layer.cu 
+ 1609  vim demo.prototxt
+ 1610  vim inference.py 
+ 1611  python inference.py 
+ 1612  vim inference.py 
+ 1613  python inference.py 
+ 1614  vim inference.py 
+ 1615  vim demo.prototxt
+ 1616  vim inference.py 
+ 1617  python inference.py 
+ 1618  vim inference.py 
+ 1619  vim demo.prototxt
+ 1620  vim inference.py 
+ 1621  python inference.py 
+ 1622  vim demo.prototxt
+ 1623  vim inference.py 
+ 1624  python inference.py 
+ 1625  cp infer.prototxt4 infer.prototxt
+ 1626  vim infer.prototxt
+ 1627  cp infer.prototxt demo.prototxt
+ 1628  vim demo.prototxt
+ 1629  sh run.sh 
+ 1630  python get_params.py 
+ 1631  vim get_params.py 
+ 1632  python get_params.py 
+ 1633  vim demo.prototxt
+ 1634  vim inference.py 
+ 1635  python inference.py 
+ 1636  vim inference.py 
+ 1637  python inference.py 
+ 1638  vim demo.prototxt
+ 1639  sh run.sh 
+ 1640  vim infer.prototxt
+ 1641  sh run.sh 
+ 1642  python get_params.py 
+ 1643  python inference.py 
+ 1644  vim demo.prototxt
+ 1645  vim inference.py 
+ 1646  python inference.py 
+ 1647  vim demo.prototxt
+ 1648  vim inference.py 
+ 1649  python inference.py 
+ 1650  vim inference.py 
+ 1651  vim demo.prototxt
+ 1652  vim inference.py 
+ 1653  vim demo.prototxt
+ 1654  vim inference.py 
+ 1655  python inference.py 
+ 1656  vim demo.prototxt
+ 1657  766
+ 1658  vim demo.prototxt
+ 1659  vim get_params.py 
+ 1660  ls
+ 1661  ls ../voc_weights/
+ 1662  vim demo.prototxt
+ 1663  vim inference.py 
+ 1664  python inference.py 
+ 1665  vim demo.prototxt
+ 1666  python inference.py 
+ 1667  vim demo.prototxt
+ 1668  vim inference.py
+ 1669  python inference.py 
+ 1670  cd /home/huawei/ddk/ddk/uihost/bin
+ 1671  history
+ 1672  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/my_right/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:32,416,416,3
+ 1673  cd yolov2
+ 1674  ls
+ 1675  vim yolov2.py 
+ 1676  cd ../caffe/
+ 1677  ls
+ 1678  ls src/
+ 1679  ls src/caffe
+ 1680  ls src/caffe/layers/conv_layer.cu
+ 1681  vim src/caffe/layers/conv_layer.cu 
+ 1682  vim src/caffe/layers/conv_layer.cpp 
+ 1683  ls
+ 1684  vim src/caffe/layers/scale_layer.cu 
+ 1685  ls
+ 1686  ls python/
+ 1687  cd ../yolov2
+ 1688  ls
+ 1689  vim yolov2.py 
+ 1690  vim model.py 
+ 1691  vim main.py 
+ 1692  python3 main.py 
+ 1693  vim yolov2.py 
+ 1694  python3 main.py 
+ 1695  vim yolov2.py 
+ 1696  python3
+ 1697  ls
+ 1698  vim yolov2.py 
+ 1699  python3 main.py 
+ 1700  vim yolov2.py 
+ 1701  vim main.py 
+ 1702  python3 main.py 
+ 1703  vim main.py 
+ 1704  python3 main.py 
+ 1705  vim main.py 
+ 1706  vim yolov2.py 
+ 1707  python3 main.py 
+ 1708  vim yolov2.py 
+ 1709  python3 main.py 
+ 1710  vim yolov2.py 
+ 1711  python3 main.py 
+ 1712  vim yolov2.py 
+ 1713  python3 main.py 
+ 1714  vim yolov2.py 
+ 1715  python3 main.py 
+ 1716  vim yolov2.py 
+ 1717  python3 main.py 
+ 1718  vim yolov2.py 
+ 1719  python3 main.py 
+ 1720  vim yolov2.py 
+ 1721  python3 main.py 
+ 1722  vim yolov2.py 
+ 1723  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0  --input_format="NWHC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1724  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:1,3,416,416
+ 1725  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:1,3,416,416
+ 1726  vim main.py 
+ 1727  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:1,3,416,416 --insert_op_conf=/home/huawei/samples/Samples/InferObjectDetection/data/models/aipp_yolov3_picture.cfg
+ 1728  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:1,3,416,416
+ 1729  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/InferObjectDetection/data/models/atlas --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:2,3,416,416
+ 1730  python3
+ 1731  python
+ 1732  cd ../../../ddk/ddk/uihost/bin
+ 1733  history
+ 1734  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0 --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1735  vim /home/huawei/yolov2/mycaffe/demo.prototxt
+ 1736  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0 --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1737  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/mycaffe/new_parameter.caffemodel --mode=0 --framework=3 --output=/home/huawei/samples/Samples/my_right/data/models/atlas --framework=0 --insert_op_conf=/home/huawei/samples/Samples/my_right/data/models/aipp_yolov3_picture.cfg --input_format="NHWC" --output_type=FP32 --input_shape=data:1,416,416,3
+ 1738  cd /home/huawei/yolov2/mycaffe/
+ 1739  python inference.py 
+ 1740  cd ../
+ 1741  python3 main.py 
+ 1742  vim yolov2.py 
+ 1743  vim main.py 
+ 1744  python3 main.py 
+ 1745  ls
+ 1746  cp atoms.npy /home/huawei/chems/bioavailability_model/InferLib/data/
+ 1747  vim mycaffe/inference.py 
+ 1748  vim /home/huawei/chems/bioavailability_model/InferLib/common/BatchImageParaWithScale.h 
+ 1749  su
+ 1750  ls
+ 1751  cd /home/huawei/yolov2
+ 1752  vim yolov2.py
+ 1753  ls
+ 1754  vim main.py 
+ 1755  python3 main.py 
+ 1756  vim main.py 
+ 1757  python3 main.py 
+ 1758  vim mycaffe/inference.py 
+ 1759  vim mycaffe/omg.sh 
+ 1760  ls
+ 1761  cd mycaffe/
+ 1762  ls
+ 1763  vim infer.prototxt
+ 1764  vim demo.prototxt
+ 1765  cp infer.prototxt demo.prototxt
+ 1766  vim infer.prototxt
+ 1767  sh run.sh 
+ 1768  vim demo.prototxt
+ 1769  vim get_params.py 
+ 1770  vim demo.prototxt
+ 1771  python get_params.py 
+ 1772  cp infer.prototxt
+ 1773  vim infer.prototxt
+ 1774  cp infer.prototxt demo.prototxt
+ 1775  sh run.sh 
+ 1776  python get_params.py 
+ 1777  vim demo.prototxt
+ 1778  python get_params.py 
+ 1779  vim inference.py 
+ 1780  python inference.py 
+ 1781  cd ../
+ 1782  vim yolov2.py 
+ 1783  python3 main.py 
+ 1784  vim main.py 
+ 1785  vim yolov2.py 
+ 1786  python3 main.py 
+ 1787  vim yolov2.py 
+ 1788  vim main.py 
+ 1789  vim yolov2.py 
+ 1790  python3 main.py 
+ 1791  cd mycaffe/
+ 1792  ls
+ 1793  vim inference.py 
+ 1794  python inference.py 
+ 1795  cd ../
+ 1796  ls
+ 1797  python3 main.py 
+ 1798  vim mycaffe/demo.prototxt
+ 1799  vim yolov2.py 
+ 1800  cd mycaffe/
+ 1801  vim inference.py 
+ 1802  python inference.py 
+ 1803  cd ../
+ 1804  python3 main.py 
+ 1805  vim yolov2.py 
+ 1806  cd mycaffe/
+ 1807  vim inference.py 
+ 1808  python inference.py 
+ 1809  cd ../
+ 1810  python3 main.py 
+ 1811  vim yolov2.py 
+ 1812  cd mycaffe/
+ 1813  vim inference.py 
+ 1814  python inference.py 
+ 1815  cd ../
+ 1816  python3 main.py 
+ 1817  cd mycaffe/
+ 1818  vim ../yolov2.py
+ 1819  vim inference.py 
+ 1820  python inference.py 
+ 1821  cd ../
+ 1822  python3 main.py 
+ 1823  vim yolov2.py 
+ 1824  vim mycaffe/inference.py 
+ 1825  cd mycaffe/
+ 1826  python inference.py 
+ 1827  cd ../
+ 1828  python3 main.py 
+ 1829  vim yolov2.py 
+ 1830  cd mycaffe/
+ 1831  vim inference.py 
+ 1832  python inference.py 
+ 1833  cd ../
+ 1834  python3 main.py 
+ 1835  vim yolov2.py
+ 1836  cd mycaffe/
+ 1837  vim demo.prototxt
+ 1838  vim inference.py 
+ 1839  python inference.py 
+ 1840  cd ../
+ 1841  vim yolov2.py 
+ 1842  python3 main.py 
+ 1843  vim yolov2.py 
+ 1844  vim mycaffe/demo.prototxt
+ 1845  vim mycaffe/inference.py 
+ 1846  vim yolov2.py 
+ 1847  vim mycaffe/demo.prototxt
+ 1848  vim mycaffe/inference.py 
+ 1849  cd mycaffe/
+ 1850  python inference.py 
+ 1851  cd ...
+ 1852  cd ../
+ 1853  python3 main.py 
+ 1854  vim yolov2.py 
+ 1855  cd mycaffe/
+ 1856  vim inference.py 
+ 1857  python inference.py 
+ 1858  cd ../
+ 1859  python3 main.py 
+ 1860  vim yolov2.py 
+ 1861  python
+ 1862  python3
+ 1863  cd mycaffe/
+ 1864  vim demo.prototxt
+ 1865  cp infer.prototxt bak.prototxt
+ 1866  vim infer.prototxt
+ 1867  cp infer.prototxt demo.prototxt
+ 1868  vim demo.prototxt
+ 1869  sh run.sh 
+ 1870  python get_params.py 
+ 1871  cd ../
+ 1872  vim yolov2.py 
+ 1873  vim main.py 
+ 1874  python3 main.py 
+ 1875  vim yolov2.py
+ 1876  python3 main.py 
+ 1877  cd mycaffe/
+ 1878  ls
+ 1879  vim demo.prototxt
+ 1880  vim infer.prototxt
+ 1881  ls
+ 1882  vim bak.prototxt 
+ 1883  mv infer.prototxt debug.prototxt
+ 1884  mv bak.prototxt infer.prototxt
+ 1885  cp infer.prototxt demo.prototxt
+ 1886  vim demo.prototxt
+ 1887  sh run.sh 
+ 1888  vim get_params.py 
+ 1889  python get_params.py 
+ 1890  vim demo.prototxt
+ 1891  vim inference.py 
+ 1892  python inference.py 
+ 1893  cd ../
+ 1894  vim yolov2.py 
+ 1895  python3 main.py 
+ 1896  ls
+ 1897  python inference.py 
+ 1898  vim ../main.py 
+ 1899  vim ../utils.py
+ 1900  ls
+ 1901  vim test.prototxt 
+ 1902  cd ../../chems/bioavailability_model/
+ 1903  vim test.py 
+ 1904  python test.py 
+ 1905  su
+ 1906  su
+ 1907  ls
+ 1908  vim nms.py
+ 1909  vim results/0.txt 
+ 1910  python3 nms.py 
+ 1911  vim nms.py 
+ 1912  python3 nms.py 
+ 1913  vim nms.py 
+ 1914  python3 nms.py 
+ 1915  vim nms.py 
+ 1916  python3 nms.py 
+ 1917  vim nms.py 
+ 1918  python3 nms.py 
+ 1919  vim nms.py 
+ 1920  python3 nms.py 
+ 1921  vim nms.py 
+ 1922  python3 nms.py 
+ 1923  vim nms.py 
+ 1924  python3 nms.py 
+ 1925  vim nms.py 
+ 1926  ls
+ 1927  vim ObjectDetectionEngine/meta2post.cpp 
+ 1928  su
+ 1929  python inference.py 
+ 1930  vim yolov2.py 
+ 1931  vim inference.py 
+ 1932  python inference.py 
+ 1933  vim infer.prototxt
+ 1934  vim solver.prototxt 
+ 1935  vim get_params.py 
+ 1936  python get_params.py 
+ 1937  python inference.py 
+ 1938  vim solver.prototxt 
+ 1939  vim yolov2.py 
+ 1940  vim main.py 
+ 1941  ls /home/huawei/chems/bioavailability_model/atlas_data/
+ 1942  vim main.py 
+ 1943  python3 main.py 
+ 1944  vim main.py 
+ 1945  python3 main.py 
+ 1946  pwd
+ 1947  vim main.py 
+ 1948  python3 main.py 
+ 1949  sh run.sh 
+ 1950  ls
+ 1951  history
+ 1952  vim /home/huawei/yolov2/mycaffe/train.txt
+ 1953  build/tools/convert_imageset --resize_height=416 --resize_width=416 /home/huawei/test/ /home/huawei/test.txt /home/huawei/yolov2/mycaffe/test
+ 1954  cd /home/huawei/yolov2
+ 1955  cd mycaffe/
+ 1956  ls
+ 1957  rz
+ 1958  ls
+ 1959  vim train_val.prototxt 
+ 1960  vim solver.prototxt 
+ 1961  vim run.sh 
+ 1962  python get_meta.py 
+ 1963  vim get_meta.py 
+ 1964  python get_meta.py 
+ 1965  history
+ 1966  ls
+ 1967  cd chems/
+ 1968  cd bioavailability_model/
+ 1969  ls
+ 1970  pwd
+ 1971  ls -ahl
+ 1972  vim InferLib/main.cpp
+ 1973  history
+ 1974  cd caffe/
+ 1975  ls
+ 1976  cd src/
+ 1977  ls
+ 1978  cd caffe/
+ 1979  ls
+ 1980  cd layers/
+ 1981  ls
+ 1982  history
+ 1983  cd /home/huawei/ddk/ddk/uihost/bin
+ 1984  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/voc_weights/3shot/3shot_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/my_right/data/models/3shot --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:1,3,416,416
+ 1985  cd ../../../
+ 1986  cd ../chems/bioavailability_model/
+ 1987  ls
+ 1988  cd result
+ 1989  cd results/
+ 1990  top
+ 1991  vim comp4_det_test_aeroplane.txt 
+ 1992  ps -aux
+ 1993  history
+ 1994  scp comp4_det_test_* liqian@10.2.151.160:/home1/liqian/Fewshot_Detection/results/get_weights_test_plot/atlas
+ 1995  cd ../
+ 1996  history
+ 1997  ./omg --model=/home/huawei/yolov2/mycaffe/demo.prototxt --weight=/home/huawei/yolov2/voc_weights/5shot/5shot_parameter.caffemodel --mode=0 --output=/home/huawei/samples/Samples/my_right/data/models/5shot --framework=0  --input_format="NCHW" --output_type=FP32 --input_shape=data:1,3,416,416
+ 1998  ls
+ 1999  vim README.md 
+ 2000  ls
+ 2001  vim INSTALL.md 
+ 2002  history
+ 2003  history >d.txt
